@@ -1,0 +1,5 @@
+Changelog for shopApi.
+
+1.0.0-pl
+==============
+- base functional for RESTFul API
