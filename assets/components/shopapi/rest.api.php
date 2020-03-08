@@ -9,12 +9,10 @@ require_once MODX_CORE_PATH . 'model/modx/modx.class.php';
 
 $modx = new modX();
 $modx->initialize('web');
-$modx->getService('error','error.modError', '', '');
+$modx->getService('error', 'error.modError', '', '');
 header("Access-Control-Allow-Origin: *");
 
-
-// Boot up any service classes or packages (models) you will need
-$path = $modx->getOption('base_path').'shop-api-Master/core/components/shopapi/';
+$path = MODX_CORE_PATH . '/components/shopapi/';
 
 // Load the modRestService class and pass it some basic configuration
 /** @var modRestService $rest */

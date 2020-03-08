@@ -1,5 +1,9 @@
 Changelog for shopApi.
 
+1.0.1-pl
+==============
+- fix component's base path
+
 1.0.0-pl
 ==============
 - base functional for RESTFul API
